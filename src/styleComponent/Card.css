@@ -10,6 +10,11 @@
     margin: 0 52px;
     border: 2px solid #000;
     background-color: rgb(216, 216, 216);
+    margin-bottom: 50px;
+}
+.card_box:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 .card_box h4 {
     margin-top: 20px;
@@ -22,7 +27,9 @@
 }
 .card_box p {
     color: black;
-    width: 300px;
+    width: 320px;
+    height: 60px;
     text-align: center;
     margin-bottom: 20px;
+    /* background-color: rgb(255, 255, 255); */
 }
