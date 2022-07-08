@@ -6,14 +6,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: auto;
-    margin: 0 52px;
+    /*  width: auto; */
+    margin: 0 27px;
     border: 2px solid #000;
     background-color: rgb(216, 216, 216);
     margin-bottom: 50px;
 }
 .card_box:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.2s;
 }
 .card_box h4 {
@@ -21,15 +21,23 @@
     color: black;
 }
 .card_box img {
-    width: 320px;
-    height: 450px;
+    /* width:; */
+    height: 300px;
     margin: 20px 25px;
 }
-.card_box p {
+.card_box div {
+    font-size: 14px;
     color: black;
-    width: 320px;
+    width: 300px;
     height: 60px;
-    text-align: center;
     margin-bottom: 20px;
     /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_box div p {
+    width: 270px;
+    color: black;
+    text-align: center;
 }

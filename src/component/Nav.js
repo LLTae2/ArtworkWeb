@@ -8,7 +8,7 @@ export default function Nav() {
                 <div className="Nav_menu">
                     <p className="Nav_menu_title">Artwork Collection</p>
                     <div>Home</div>
-                    <div>Artwork</div>
+                    <div>Designer</div>
                     <div>Detail</div>
                 </div>
             </div>

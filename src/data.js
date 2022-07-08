@@ -20,21 +20,21 @@ export default [
     
     {
         id: 3,
-        title: '',
-        content: '',
-        imageSrc: '',
+        title: 'David Carson',
+        content: 'When asked to express himself in one word, he answered intuition. And I said that intuition can not be educated.',
+        imageSrc: 'https://mblogthumb-phinf.pstatic.net/20110108_72/theattip_1294469179157sYDUp_JPEG/16.jpg?type=w2',
     },
     {
         id: 4,
-        title: '',
-        content: '',
-        imageSrc: '',
+        title: 'Deborah Sussman',
+        content: 'Paul Rand is an important figure in graphic history and has designed a number of corporate logos including IBM, ABC, CBS, and UPS.',
+        imageSrc: 'https://file.designdb.com/imagedata/reporter/jn732/S/77_4_image11(IBM_Poster).jpg',
     },
     {
         id: 5,
-        title: '',
-        content: '',
-        imageSrc: '',
+        title: 'Milton Glaser',
+        content: 'Milton Glazer said that if you do not persevere for the rest of your life, you can not be a great designer.',
+        imageSrc: 'https://mblogthumb-phinf.pstatic.net/20101201_53/ddco7836_1291170439786R2qjw_JPEG/%25EB%25B0%2580%25ED%2584%25B4_%25EA%25B8%2580%25EB%25A0%2588%25EC%259D%25B4%25EC%25A0%2580_09.jpg?type=w800',
     },
     {
         id: 6,
@@ -47,30 +47,5 @@ export default [
         title: '',
         content: '',
         imageSrc: '',
-    },
-    {
-        id: 8,
-        title: '',
-        content: '',
-        imageSrc: '',
-    },
-    {
-        id: 9,
-        title: '',
-        content: '',
-        imageSrc: '',
-    },
-    {
-        id: 10,
-        title: '',
-        content: '',
-        imageSrc: '',
-    },
-    {
-        id: 11,
-        title: '',
-        content: '',
-        imageSrc: '',
-    },
-
+    }
 ]
