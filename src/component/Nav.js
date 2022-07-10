@@ -1,5 +1,6 @@
 import "../styleComponent/Nav.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
     return (
@@ -7,8 +8,12 @@ export default function Nav() {
             <div className="Nav_menu_box">
                 <div className="Nav_menu">
                     <p className="Nav_menu_title">Artwork Collection</p>
-                    <div>Home</div>
-                    <div>Designer</div>
+                    <Link to='/'>
+                        <div>Home</div>
+                    </Link>
+                    <Link to='/artwork'>
+                        <div>Artwork</div>
+                    </Link>
                     <div>Detail</div>
                 </div>
             </div>

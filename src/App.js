@@ -1,26 +1,17 @@
 import React, { useState } from "react";
-import Nav from "./component/Nav";
 import "./App.css";
-import Intro from "./component/Intro";
-import data from "./data";
-import Card from "./component/Card";
+import { Route, Routes } from 'react-router-dom';
+import Home from "./pages/Home";
+import Artwork from "./pages/Artwork";
+
 
 function App() {
-  const [artwork, setArtwork] = useState(data);
   return (
-    <div id="wrap">
-      <Nav />
-      <Intro />
-      <div className="card_container">
-        {
-          artwork.map((a, i) => {
-            return <Card artwork={artwork[i]} key={i} />
-          })
-        }
-      </div>
-    </div>
+    <Routes>
+      <Route exact path='/' element={<Home />} />
+      <Route exact path='/artwork' element={<Artwork />} />
+    </Routes>
   );
 }
 
 export default App;
-//https://joy-codeing-lee.tistory.com/98
