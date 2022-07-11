@@ -8,13 +8,15 @@ export default function Nav() {
             <div className="Nav_menu_box">
                 <div className="Nav_menu">
                     <p className="Nav_menu_title">Artwork Collection</p>
-                    <Link to='/'>
+                    <Link className="Nav_menu_link" to='/'>
                         <div>Home</div>
                     </Link>
-                    <Link to='/artwork'>
+                    <Link className="Nav_menu_link" to='/artwork'>
                         <div>Artwork</div>
                     </Link>
-                    <div>Detail</div>
+                    <Link className="Nav_menu_link" to='/detail'>
+                        <div>Detail</div>
+                    </Link>
                 </div>
             </div>
             <div className="Nav_search_box">

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.Slider_container {
+    margin: 4.5% auto;
+    width: 1300px;
+    height: 600px;
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Slider_first_end {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(161, 161, 161);
+}
+.Slider_middle {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(118, 116, 116);
+}
